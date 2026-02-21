@@ -1,0 +1,16 @@
+{
+  "name": "xueqiu-summary",
+  "version": "1.0.0",
+  "description": "OpenClaw skill — 雪球大V动态汇总与投资建议",
+  "main": "fetch_timeline.js",
+  "scripts": {
+    "install-deps": "bash install.sh",
+    "test": "node -e \"require('playwright-extra'); require('puppeteer-extra-plugin-stealth'); console.log('OK')\""
+  },
+  "keywords": ["openclaw", "skill", "xueqiu", "stock", "investment"],
+  "license": "MIT",
+  "dependencies": {
+    "playwright-extra": "^4.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}

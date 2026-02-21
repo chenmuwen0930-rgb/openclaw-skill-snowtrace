@@ -1,0 +1,8 @@
+{
+  "updated": "2026-01-01",
+  "positions": [
+    { "symbol": "SH600519", "name": "贵州茅台", "market": "A", "shares": 100, "cost": 1700.00 },
+    { "symbol": "00700", "name": "腾讯控股", "market": "HK", "shares": 200, "cost": 350.00 },
+    { "symbol": "AAPL", "name": "苹果", "market": "US", "shares": 50, "cost": 180.00 }
+  ]
+}
