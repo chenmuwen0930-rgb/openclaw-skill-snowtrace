@@ -1,4 +1,4 @@
-# xueqiu-summary
+# snow-summary
 
 [OpenClaw](https://openclaw.ai) Skill — snow大V动态汇总与投资建议
 
