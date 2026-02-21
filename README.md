@@ -1,13 +1,13 @@
 # xueqiu-summary
 
-[OpenClaw](https://openclaw.ai) Skill — 雪球大V动态汇总与投资建议
+[OpenClaw](https://openclaw.ai) Skill — snow大V动态汇总与投资建议
 
-自动抓取雪球大V最新发帖 + 用户自选股实时行情，给出汇总摘要和投资参考建议。
+自动抓取snow大V最新发帖 + 用户自选股实时行情，给出汇总摘要和投资参考建议。
 
 ## 功能
 
-- 抓取关注的雪球大V最新原创动态（Playwright + stealth 绕过 WAF）
-- 获取雪球自选股列表及实时行情（支持 A 股 / 港股 / 美股）
+- 抓取关注的snow大V最新原创动态（Playwright + stealth 绕过 WAF）
+- 获取snow自选股列表及实时行情（支持 A 股 / 港股 / 美股）
 - 可选配置本地持仓，自动计算盈亏
 - 输出五段式投资分析报告（大V观点摘要 → 行情概览 → 关联分析 → 投资建议 → 免责声明）
 
@@ -35,7 +35,7 @@ npm install
 npx playwright install chromium
 ```
 
-### 3. 设置雪球 Token
+### 3. 设置snow Token
 
 ```bash
 export XQ_A_TOKEN="your_xq_a_token_here"
@@ -57,7 +57,7 @@ cp portfolio.example.json portfolio.json
 # 编辑 portfolio.json，填入你的持仓信息
 ```
 
-如果不配置 `portfolio.json`，会自动从雪球账号获取自选股列表。
+如果不配置 `portfolio.json`，会自动从snow账号获取自选股列表。
 
 ## 使用
 
